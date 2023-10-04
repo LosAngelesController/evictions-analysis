@@ -53,6 +53,7 @@ export default function NoticesByCd(props) {
       var options = {
         plugins: {
           legend: {
+            display: false,
             labels: {
               color: "rgb(255, 255, 255)",
               font: {

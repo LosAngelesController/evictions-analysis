@@ -14,7 +14,6 @@ export default function NoticesByMonth(props) {
         labels: props.monthNotices.map((x) => x.month),
         datasets: [
           {
-            label: "Number of Eviction Notices",
             data: props.monthNotices.map((x) => x.total),
             backgroundColor: [
               "#41ffca",
@@ -30,6 +29,7 @@ export default function NoticesByMonth(props) {
       var options = {
         plugins: {
           legend: {
+            display: false,
             labels: {
               color: "rgb(255, 255, 255)",
               font: {
