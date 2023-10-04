@@ -86,7 +86,7 @@ export default function RentOwed() {
                   className={`text-black p-2 text-right text-xl ${row.total === 186491100.99 ? "font-bold" : ""}`}
                   style={{ border: "1px solid black" }}
                 >
-                  ${row.total.toLocaleString()}
+                   $ {parseFloat(row.total).toFixed(2).replace(/\d(?=(\d{3})+\.)/g, '$&,')}
                 </td>
               </tr>
             ))}
