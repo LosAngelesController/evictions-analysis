@@ -80,7 +80,7 @@ export default function NoticeType() {
                   className='text-black p-2 text-xl'
                   style={{ border: "1px solid black" }}
                 >
-                  {row["#OfEvictionNotices"]}
+                  {row["#OfEvictionNotices"].toLocaleString()}
                 </td>
                 <td
                   className='text-black p-2 text-right text-xl'

@@ -80,7 +80,7 @@ export default function RentOwed() {
                   className={`text-black p-2 text-xl ${row["#OfEvictionNotices"] === 48058 ? "font-bold" : ""}`}
                   style={{ border: "1px solid black" }}
                 >
-                  {row["#OfEvictionNotices"]}
+                  {row["#OfEvictionNotices"].toLocaleString()}
                 </td>
                 <td
                   className={`text-black p-2 text-right text-xl ${row.total === 186491100.99 ? "font-bold" : ""}`}

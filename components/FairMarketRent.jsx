@@ -86,7 +86,7 @@ export default function FairMarketRent() {
                   className='text-black p-2 text-right text-xl'
                   style={{ border: "1px solid black" }}
                 >
-                  {row['#OfNotices']}
+                  {row['#OfNotices'].toLocaleString()}
                 </td>
               </tr>
             ))}
@@ -94,7 +94,7 @@ export default function FairMarketRent() {
           <tbody className="text-black" style={{border: "1px solid black"}}>
             <tr>
                 <td className="text-black p-2 font-bold text-xl" colSpan={2}>Total</td>
-                <td className="text-right font-bold p-2 text-xl">6062</td>
+                <td className="text-right font-bold p-2 text-xl">6,062</td>
             </tr>
           </tbody>
         </table>
