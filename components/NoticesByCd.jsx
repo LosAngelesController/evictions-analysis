@@ -9,7 +9,6 @@ Chart.register(...registerables);
 
 export default function NoticesByCd(props) {
     const [cdNotices, setCdNotices] = useState([]);
-    // const [isLoading, setIsLoading] = useState(true);
 
     useEffect(() => {
         let url = 'https://api.sheety.co/2996d79e2117ff0d746768a9b29ec03c/evictionNoticesAnalysisMonthly/noticesByCd';
@@ -24,11 +23,9 @@ export default function NoticesByCd(props) {
           console.log("cd", json.noticesByCd);
           let notices = json.noticesByCd;
           setCdNotices(notices);
-        //   setIsLoading(false);
         })
         .catch((error) => {
           console.error("Error:", error);
-        //   setIsLoading(false);
         });
       }, []);
 
@@ -37,7 +34,6 @@ export default function NoticesByCd(props) {
         labels: cdNotices.map((x) => x.councilDistrict),
         datasets: [
           {
-            label: "Number of Eviction Notices by Council District (Feb to Aug 2023)",
             data: cdNotices.map((x) => x.number),
             backgroundColor: [
               "#41ffca",
