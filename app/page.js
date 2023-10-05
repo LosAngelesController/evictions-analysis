@@ -70,7 +70,7 @@ export default function Evictions() {
               </h3>
             </div>
             <div
-              className="dark:text-white"
+              className="dark:text-white text-left"
               style={{ fontFamily: "Helvetica" }}
             >
               <p className="mb-4">
@@ -141,7 +141,7 @@ export default function Evictions() {
               <Top20Zip />
             </div>
             <div
-              className="mb-16 dark:text-white"
+              className="mb-16 dark:text-white text-left"
               style={{ fontFamily: "Helvetica" }}
             >
               <p className="mb-4">
@@ -162,7 +162,7 @@ export default function Evictions() {
               <h4 className="mb-4 dark:text-white font-bold text-xl">
                 <b>Rent Owed</b>
               </h4>
-              <p className="mb-4">
+              <p className="mb-4 text-left">
                 The total amount of rent owed due to <b>Non-Payment of Rent</b>{" "}
                 is <b>$186,491,100.99</b>.
               </p>
@@ -178,7 +178,7 @@ export default function Evictions() {
               <h4 className="mb-4 dark:text-white font-bold text-xl">
                 <b>Fair Market Rent</b>
               </h4>
-              <div className="mb-4">
+              <div className="mb-4 text-left">
                 <p className="mb-4">
                   The <b>Just Cause Ordinance (JCO)</b> contains a provision
                   where a landlord can evict a tenant only if the amount due{" "}
@@ -202,7 +202,7 @@ export default function Evictions() {
               <h4 className="mb-4 dark:text-white font-bold text-xl">
                 <b>Notice Types</b>
               </h4>
-              <div className="mb-4">
+              <div className="mb-4 text-left">
                 <p>
                   When served with an eviction, tenants are given a deadline to
                   either pay rent owed or move out ("pay or quit") or to fix an
@@ -223,14 +223,14 @@ export default function Evictions() {
                 <b>Tenant Protection Deadlines</b>
               </h4>
               <ul>
-                <li className="mb-4">
+                <li className="mb-4 text-left">
                   &bull; <b>August 1, 2023</b> – rent owed from March 1, 2020 to
                   August 31, 2020 is due. If the Declaration of COVID-19-Related
                   Financial Distress form was returned to the landlord within 15
                   days of rent being due, they cannot be evicted for nonpayment
                   of rent.
                 </li>
-                <li className="mb-4">
+                <li className="mb-4 text-left">
                   &bull; <b>February 1, 2024</b> – rent owed from October 1,
                   2021 to January 31, 2023 is due. If a tenant returned the
                   Declaration of COVID-19-Related Financial Distress form to the
@@ -238,13 +238,13 @@ export default function Evictions() {
                   owed from this period, they cannot be evicted for nonpayment
                   of rent.
                 </li>
-                <li className="mb-4">
+                <li className="mb-4 text-left">
                   &bull; However, since <b>March 27, 2023</b>, landlords may not
                   evict a tenant who falls behind in rent unless the tenant owes
                   an amount higher than the <b>Fair Market Rent (FMR)</b>. The
                   FMR depends on the bedroom size of the rental unit.
                 </li>
-                <li className="mb-4">
+                <li className="mb-4 text-left">
                   &bull; If an eviction notice is not provided to LAHD, a tenant
                   may raise an affirmative defense in an Unlawful Detainer case.
                 </li>
